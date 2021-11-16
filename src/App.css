@@ -1,4 +1,4 @@
-.App {
+:root {
   text-align: center;
   --primaryColor: #FFC593;
   --SecondaryColor:#BC7198;
@@ -9,5 +9,8 @@
   --grey:#DFDFDF;
   --white:#FFFFFF;
 
+ font-family: 'DM Sans', sans-serif;;
 }
+
+
 

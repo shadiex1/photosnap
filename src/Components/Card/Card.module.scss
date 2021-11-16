@@ -1,0 +1,43 @@
+.Card{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(8px 8px 10px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    .group{
+        border-bottom: .2px solid #fff;
+        margin-bottom: 20px;
+        h2{
+        text-align: left;
+        color: var(--white);
+        padding: 0;
+        margin: 0;
+        font-size: 22px;
+    }
+    p{
+        color: var(--white);
+        text-align: left;
+        padding: 0;
+        // margin-bottom: 5px;
+        margin: 5px 0 10px 0;
+    }
+    }
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: var(--white);
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            
+            object-fit: contain;
+        }
+    }
+    
+}

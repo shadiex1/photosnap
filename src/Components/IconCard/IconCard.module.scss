@@ -1,0 +1,29 @@
+.IconCard{
+    // margin: 10px;
+    // padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .imgContainer{
+        width: 100%;    
+        display: flex;
+        justify-content: center;    
+        height: 100px;
+        margin-bottom: 30px;
+        img{
+       display: block;
+       object-fit: contain;
+    }
+    }
+    
+    h2{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    p{
+        width: 80%;
+    }
+}

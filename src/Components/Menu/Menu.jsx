@@ -4,12 +4,17 @@ import { Logo } from "../../Assets/svg";
 const Menu = (props)=>{
     return(
         <div className={styles.Menu}>
-           <Logo/>
+            <div className={styles.logoContainer}>
+            <Logo/>
+            </div>
            <ul>
                <li>STORIES</li>
                <li>FEATURES</li>
                <li>Pricing</li>
            </ul>
+           <button className={styles.btn}>
+               GET AN INVITE
+           </button>
         </div>
     )
 }
